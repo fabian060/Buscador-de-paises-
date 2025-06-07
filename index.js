@@ -98,8 +98,6 @@ function showCountryDetails(country) {
             <p>Población: ${country.population.toLocaleString()}</p>
             <p>Región: ${country.region}</p>
             <p>Subregión: ${country.subregion}</p>
-            <p>Idiomas: ${Object.values(country.languages).join(', ')}</p>
-            <p>Monedas: ${Object.values(country.currencies).map(currency => currency.name).join(', ')}</p>
         </div>
     `;
 }
